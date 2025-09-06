@@ -1,0 +1,40 @@
+# Byggartefakter
+*.o
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lo
+*.la
+
+# Våra kompilat
+car/car_program
+assignment2-classes/car/car_program
+assignment3-interfaces/driver_program
+app
+
+# Make artefakter
+*.dSYM/
+*.swp
+
+# Backup/temporary
+*~
+*.tmp
+*.log
+
+# OS-filer
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE-filer
+.vscode/
+.idea/
+*.code-workspace
+
+# Genererade filer från uppgifterna
+device.txt
+person.txt
+cars.txt
